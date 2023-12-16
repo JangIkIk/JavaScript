@@ -1,0 +1,102 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+    height: 100%;
+}
+
+h1,h2,ul,li,p{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    padding: 20px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+/*__________________*/
+header{
+    margin-bottom: 10px;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+#userInput{
+    background-color: rgb(222, 223, 225);
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+#userSubmit{
+    flex-basis: 50px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+/*__________________*/
+
+.list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-checkBox{
+    width: 10%;
+}
+
+.list-title-label{
+    flex:1;
+}
+.list-title-input{
+    flex:1;
+    background-color: rgb(243, 238, 238);
+    display: none;
+}
+
+.list-button > button{
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.set-button{ display: none;}
+
+.set-button > button{
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
